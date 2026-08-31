@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saffron Stories | Authentic Indian Flavours in Kharagpur</title>
+    
+    <meta name="description" content="Experience authentic Indian flavours crafted with traditional recipes at Saffron Stories in Kharagpur, West Bengal. Premium dining, modern experience.">
+    <meta name="keywords" content="Indian restaurant, Kharagpur dining, authentic Indian food, biryani, premium restaurant">
+    <meta name="author" content="Saffron Stories">
+    
+    <meta property="og:title" content="Saffron Stories | Authentic Indian Flavours">
+    <meta property="og:description" content="Where Tradition Meets Taste. Premium Indian restaurant in Kharagpur.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:url" content="https://saffronstories.demo">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">🍲</span>
+                <span class="logo-text">Saffron Stories</span>
+            </a>
+            
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">Our Story</a>
+                <a href="#menu">Menu</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <a href="#reservation" class="btn btn-primary">Reserve a Table</a>
+                <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content fade-up">
+                <span class="tagline">Authentic Indian Flavours, Modern Experience</span>
+                <h1>Where Tradition Meets Taste.</h1>
+                <p>Experience authentic Indian flavours crafted with traditional recipes, fresh ingredients, and a modern touch.</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-primary">Explore Menu</a>
+                    <a href="#reservation" class="btn btn-outline">Reserve a Table</a>
+                </div>
+                <div class="trust-indicators">
+                    <span>✨ Fresh ingredients</span>
+                    <span class="dot">•</span>
+                    <span>🌿 Authentic recipes</span>
+                    <span class="dot">•</span>
+                    <span>❤️ Made with care</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <h2>A Story Worth Tasting</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="about-content fade-up">
+                    <p class="about-text">Born from generations of Indian family recipes, <strong>Saffron Stories</strong> is a celebration of culinary heritage. Nestled in the heart of Kharagpur, we bring together the robust spices of North India and the delicate sensibilities of Bengali-inspired dishes. Our kitchen is a canvas where traditional cooking techniques meet a modern, sophisticated dining experience.</p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card fade-up">
+                        <div class="feature-icon">🌶️</div>
+                        <h3>Authentic Recipes</h3>
+                        <p>Time-honoured spice blends and marinades passed down through generations.</p>
+                    </div>
+                    <div class="feature-card fade-up" style="transition-delay: 0.1s;">
+                        <div class="feature-icon">🥬</div>
+                        <h3>Fresh Ingredients</h3>
+                        <p>Locally sourced produce and premium meats prepared fresh every single day.</p>
+                    </div>
+                    <div class="feature-card fade-up" style="transition-delay: 0.2s;">
+                        <div class="feature-icon">🙏</div>
+                        <h3>Warm Hospitality</h3>
+                        <p>A welcoming atmosphere where every guest is treated like family.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="section bg-dark">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <h2>Our Menu</h2>
+                    <div class="divider"></div>
+                    <p class="subtitle">A curated selection of our finest dishes</p>
+                </div>
+
+                <div class="menu-filters fade-up">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="starters">Starters</button>
+                    <button class="filter-btn" data-filter="mains">Main Course</button>
+                    <button class="filter-btn" data-filter="rice">Rice & Biryani</button>
+                    <button class="filter-btn" data-filter="desserts">Desserts</button>
+                </div>
+
+                <div class="menu-grid" id="menu-container">
+                    </div>
+            </div>
+        </section>
+
+        <section id="offer" class="section offer-section">
+            <div class="offer-overlay"></div>
+            <div class="container">
+                <div class="offer-content fade-up">
+                    <span class="offer-badge">Weekend Special</span>
+                    <h2>Family Dinner for 4</h2>
+                    <ul class="offer-includes">
+                        <li>✓ Assorted Starter Platter</li>
+                        <li>✓ Choice of 2 Main Courses</li>
+                        <li>✓ Unlimited Naan & Jeera Rice</li>
+                        <li>✓ Choice of Dessert</li>
+                    </ul>
+                    <div class="offer-price">₹999</div>
+                    <p class="demo-notice">* This is a fictional demo offer.</p>
+                    <a href="#reservation" class="btn btn-primary">Book Your Table</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <h2>Gallery</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="gallery-grid">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80" alt="Restaurant interior" class="gallery-img fade-up" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=600&q=80" alt="Indian food spread" class="gallery-img fade-up" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=600&q=80" alt="Chef preparing food" class="gallery-img fade-up" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80" alt="Dining table" class="gallery-img fade-up" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1511018556340-d16986a1c194?auto=format&fit=crop&w=600&q=80" alt="Dessert" class="gallery-img fade-up" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=600&q=80" alt="Exterior evening" class="gallery-img fade-up" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <div id="lightbox" class="lightbox">
+            <span class="close-lightbox">&times;</span>
+            <img class="lightbox-content" id="lightbox-img" alt="Enlarged view">
+        </div>
+
+        <section id="features" class="section bg-dark">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <h2>Why Choose Us</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="benefits-grid">
+                    <div class="benefit-item fade-up"><i>🍲</i> Freshly prepared food</div>
+                    <div class="benefit-item fade-up"><i>👨‍👩‍👧‍👦</i> Family-friendly atmosphere</div>
+                    <div class="benefit-item fade-up"><i>🛍️</i> Takeaway available</div>
+                    <div class="benefit-item fade-up"><i>📍</i> Easy location access</div>
+                    <div class="benefit-item fade-up"><i>🌱</i> Vegetarian options</div>
+                    <div class="benefit-item fade-up"><i>😊</i> Friendly service</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="section">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <h2>What Our Guests Say</h2>
+                    <div class="divider"></div>
+                    <p class="demo-notice">(Fictional Demo Reviews)</p>
+                </div>
+                <div class="reviews-grid">
+                    <div class="review-card fade-up">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"Absolutely incredible! The Butter Chicken was the best I've had in Kharagpur. The ambiance is perfect for a date night or family dinner."</p>
+                        <p class="review-author">- Anjali Desai</p>
+                    </div>
+                    <div class="review-card fade-up" style="transition-delay: 0.1s;">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"Saffron Stories perfectly balances traditional flavors with modern presentation. Their vegetarian options, especially the Paneer Lababdar, are phenomenal."</p>
+                        <p class="review-author">- Rahul Bose</p>
+                    </div>
+                    <div class="review-card fade-up" style="transition-delay: 0.2s;">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"Warm hospitality and top-notch ingredients. The Weekend Special is fantastic value for money. Highly recommend booking in advance!"</p>
+                        <p class="review-author">- Priya Sharma</p>
+                    </div>
+                </div>
+                <div class="center-btn fade-up">
+                    <button class="btn btn-outline">See More Reviews</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-dark" id="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    
+                    <div class="location-box fade-up">
+                        <h2>Visit Us</h2>
+                        <div class="divider" style="margin: 1rem 0;"></div>
+                        <div class="contact-info">
+                            <p><strong>Address:</strong> <span id="conf-address">Station Road, Kharagpur, West Bengal</span></p>
+                            <p><strong>Opening Hours:</strong></p>
+                            <ul class="hours-list" id="conf-hours">
+                                </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary" id="conf-maps" target="_blank">Get Directions</a>
+                    </div>
+
+                    <div class="contact-box fade-up">
+                        <h2>Contact Us</h2>
+                        <div class="divider" style="margin: 1rem 0;"></div>
+                        <p class="demo-notice">Demo contact details</p>
+                        <div class="contact-links">
+                            <a href="#" id="conf-phone-link" class="contact-link">📞 <span id="conf-phone"></span></a>
+                            <a href="#" id="conf-whatsapp-link" class="contact-link">💬 WhatsApp Us</a>
+                            <a href="#" id="conf-email-link" class="contact-link">✉️ <span id="conf-email"></span></a>
+                            <a href="#" id="conf-ig-link" class="contact-link" target="_blank">📸 <span id="conf-ig"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reservation" class="section">
+            <div class="container">
+                <div class="reservation-wrapper fade-up">
+                    <div class="section-header">
+                        <h2>Reserve a Table</h2>
+                        <div class="divider"></div>
+                        <p>Book your culinary experience with us.</p>
+                    </div>
+                    
+                    <form id="reservation-form" class="reservation-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="res-name">Full Name</label>
+                                <input type="text" id="res-name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="res-phone">Phone Number</label>
+                                <input type="tel" id="res-phone" required placeholder="+91 90000 00000">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="res-date">Date</label>
+                                <input type="date" id="res-date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="res-time">Time</label>
+                                <input type="time" id="res-time" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="res-guests">Number of Guests</label>
+                            <select id="res-guests" required>
+                                <option value="1">1 Person</option>
+                                <option value="2" selected>2 People</option>
+                                <option value="3">3 People</option>
+                                <option value="4">4 People</option>
+                                <option value="5">5 People</option>
+                                <option value="6">6+ People (Large Group)</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">Request Reservation</button>
+                        <div id="form-message" class="form-message hidden"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h3>Saffron Stories</h3>
+                <p>Authentic Indian flavours, unforgettable moments.</p>
+                <p class="demo-notice" style="margin-top: 1rem;">* This website is a functional demo for local restaurant owners.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#reservation">Reserve a Table</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>Station Road, Kharagpur</p>
+                <p>+91 90000 00000</p>
+                <p>hello@saffronstories.demo</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; <span id="current-year"></span> Saffron Stories. All rights reserved. Demo created for sales purposes.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
